@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+nav {
+    height: 80px;
+    background-color: rgb(53, 25, 14);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc(100vw - 1300px) / 2;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem calc(100vw - 130px) / 2;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 0rem 2rem;
+}
+
+
+.column-left h1 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: rgb(60, 142, 64);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.column-left h2 {
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.column-left p {
+    margin-bottom: 2rem;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+button {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    background-color: rgb(53, 25, 14);
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color:rgb(53, 25, 14);
+    color: rgb(53, 25, 14);
+
+}
+
+.column-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+
+
+}
